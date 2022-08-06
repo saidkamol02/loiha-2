@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+.main nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    font-size: 20px;
+}
+.main nav a{
+    color: black;
+    text-decoration: none;
+    margin: 15px;
+}
+li{
+    list-style-type: none;
+}
+.Home-Page{
+    width: 100%;
+    height: 87vh;
+    background: url(./Rasm/bg.webp)no-repeat;
+    background-size: 100% ;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.Home-Page h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    margin: 30px;
+}
+.Home-Page p{
+    text-align: center;
+    width: 80%;
+    color: #fff;
+    font-size: 20px;
+}
+.About-Me{
+    width: 100%;
+    height: 87.80vh;
+    background: url(./Rasm/about-bg.jpg)no-repeat;
+    background-size: 100% ;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.About-Me h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    margin: 30px;
+}
+.About-Me p{
+    text-align: center;
+    color: #fff;
+    width: 80%;
+    font-size: 20px;
+}
